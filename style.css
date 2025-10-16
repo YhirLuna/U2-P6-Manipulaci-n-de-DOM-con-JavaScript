@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+.mensaje-correcto{
+  background-color: #d1fae5; /* Verde claro */
+  color: #065f46; /* Verde oscuro */
+  padding: 10px 5px;
+  border-radius: 8px;
+  border: 1px solid #10b981; /* Verde principal */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+
+}
+
+
+button{
+    color: #ffffff;
+    background-color: #3700fc;
+    border-radius: 5px;
+    border: 1px solid #2f10b949;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+
+}
+
+button:hover {
+  background-color: #1b18a3;
+}
+
+.mensaje-error{
+    background-color:  #ffa5ac;
+    color: #721c24;
+    
+    
+}
+
+
+.contenedor {
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+
+
